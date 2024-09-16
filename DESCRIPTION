@@ -1,0 +1,29 @@
+Package: conversim
+Title: Conversation Similarity Analysis Package
+Version: 0.1.0
+Authors@R: person("Chao Liu", email = "chaoliu@cedarville.edu", role = c("aut", "cre", "cph"))
+Description: A comprehensive toolkit for analyzing and comparing conversations.
+    This package provides functions to calculate various similarity measures
+    between conversations, including topic, lexical, semantic, structural,
+    stylistic, sentiment, participant, and timing similarities. It supports
+    both pairwise conversation comparisons and analysis of multiple dyads.
+License: GPL (>= 3)
+Imports: 
+    tm (>= 0.7-8),
+    lsa (>= 0.73.2),
+    topicmodels (>= 0.2-12),
+    sentimentr (>= 2.7.1),
+    word2vec,
+    lme4,
+    slam,
+    ggplot2,
+    stats
+LazyData: true
+RoxygenNote: 7.3.2
+Encoding: UTF-8
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
