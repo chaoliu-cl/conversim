@@ -114,4 +114,4 @@ timing_sim_results <- timing_sim_dyads(preprocessed_data)
 ```
 
 For more tutorials, please visit
-[liu-chao.site/conversim](liu-chao.site/conversim)
+[liu-chao.site/conversim](https://liu-chao.site/conversim)
