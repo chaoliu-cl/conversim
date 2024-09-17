@@ -27,5 +27,5 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
-URL: https://github.com/chaoliu-cl/conversim
+URL: https://github.com/chaoliu-cl/conversim, http://liu-chao.site/conversim/
 BugReports: https://github.com/chaoliu-cl/conversim/issues
