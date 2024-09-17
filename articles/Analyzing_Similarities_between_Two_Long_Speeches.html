@@ -36,9 +36,6 @@
 <li><a class="dropdown-item" href="../articles/Analyzing_Similarities_between_Two_Long_Speeches.html">Analyzing Similarities between Two Long Speeches</a></li>
     <li><a class="dropdown-item" href="../articles/Analyzing_Similarities_in_Conversational_Sequence_in_One_Dyad.html">Analyzing Similarities in Conversational Sequence in One Dyad</a></li>
     <li><a class="dropdown-item" href="../articles/Analyzing_Similarities_in_Conversational_Sequences_across_Multiple_Dyads.html">Analyzing Similarities in Conversational Sequences across Multiple Dyads</a></li>
-    <li><a class="dropdown-item" href="../articles/Functions_for_conversations_multidyads.html">Analyzing Similarities in Conversational Sequences across Multiple Dyads</a></li>
-    <li><a class="dropdown-item" href="../articles/Main_functions_for_conversation_sequence.html">Analyzing Similarities in Conversational Sequence in One Dyad</a></li>
-    <li><a class="dropdown-item" href="../articles/Main_Similarity_Functions.html">Analyzing Similarities between Two Long Speeches</a></li>
     <li><a class="dropdown-item" href="../articles/utilities_functions.html">Utility Functions for Further Exploration and Visualization</a></li>
   </ul>
 </li>
@@ -203,7 +200,7 @@ similarity between two speeches using different methods:</p>
 <pre><code><span><span class="co">## [1] "TF-IDF Similarity: 0.5"</span></span></code></pre>
 <div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste</a></span><span class="op">(</span><span class="st">"Word2Vec Similarity:"</span>, <span class="va">word2vec_similarity</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
-<pre><code><span><span class="co">## [1] "Word2Vec Similarity: 0.998902665837194"</span></span></code></pre>
+<pre><code><span><span class="co">## [1] "Word2Vec Similarity: 0.999170634893728"</span></span></code></pre>
 <div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># Note: For GloVe method, you need to provide a path to pre-trained GloVe vectors</span></span>
 <span><span class="co"># glove_similarity &lt;- semantic_similarity(speeches_data$text[1], speeches_data$text[2], method = "glove", model_path = "path/to/glove/vectors.txt")</span></span></code></pre></div>
