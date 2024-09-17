@@ -1,0 +1,15 @@
+pandoc: 3.1.11
+pkgdown: 2.1.0
+pkgdown_sha: ~
+articles:
+  Analyzing_Similarities_between_Two_Long_Speeches: Analyzing_Similarities_between_Two_Long_Speeches.html
+  Analyzing_Similarities_in_Conversational_Sequence_in_One_Dyad: Analyzing_Similarities_in_Conversational_Sequence_in_One_Dyad.html
+  Analyzing_Similarities_in_Conversational_Sequences_across_Multiple_Dyads: Analyzing_Similarities_in_Conversational_Sequences_across_Multiple_Dyads.html
+  Functions_for_conversations_multidyads: Functions_for_conversations_multidyads.html
+  Main_functions_for_conversation_sequence: Main_functions_for_conversation_sequence.html
+  Main_Similarity_Functions: Main_Similarity_Functions.html
+  utilities_functions: utilities_functions.html
+last_built: 2024-09-17T02:52Z
+urls:
+  reference: http://liu-chao.site/conversim/reference
+  article: http://liu-chao.site/conversim/articles
